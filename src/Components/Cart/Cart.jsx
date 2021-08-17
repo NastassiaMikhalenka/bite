@@ -22,15 +22,15 @@ useEffect(() => {
     return (
         
         <div className={classes.container}>
+             <div className={classes.total}>
+                <span>Total Item: ({totalItems}) </span>
+                <span>Total Price: $ {totalPrice} </span>
+                <button className={classes.btnCnt}>Continue</button>
+            </div>
             <div className={classes.containerProducts}>
                 {cart.map(item => (
                     <CartItem key={item.id} itemData={item}/>
                 ))}
-            </div>
-            <div className={classes.total}>
-                <span>Total Item: ({totalItems}) </span>
-                <span>Total Price: $ {totalPrice} </span>
-                <button className={classes.btnCnt}>Continue</button>
             </div>
         </div>
     )

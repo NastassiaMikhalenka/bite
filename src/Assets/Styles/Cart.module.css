@@ -6,8 +6,6 @@
 .container{
     width: 80%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -17,6 +15,8 @@
 
 .containerProducts{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
