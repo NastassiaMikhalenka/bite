@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bite/static/css/main.fa2e2c86.chunk.css",
-    "main.js": "/bite/static/js/main.37522f30.chunk.js",
-    "main.js.map": "/bite/static/js/main.37522f30.chunk.js.map",
+    "main.css": "/bite/static/css/main.5c76741f.chunk.css",
+    "main.js": "/bite/static/js/main.053dc1fd.chunk.js",
+    "main.js.map": "/bite/static/js/main.053dc1fd.chunk.js.map",
     "runtime-main.js": "/bite/static/js/runtime-main.94423061.js",
     "runtime-main.js.map": "/bite/static/js/runtime-main.94423061.js.map",
     "static/js/2.571e34fe.chunk.js": "/bite/static/js/2.571e34fe.chunk.js",
     "static/js/2.571e34fe.chunk.js.map": "/bite/static/js/2.571e34fe.chunk.js.map",
     "index.html": "/bite/index.html",
-    "static/css/main.fa2e2c86.chunk.css.map": "/bite/static/css/main.fa2e2c86.chunk.css.map",
+    "static/css/main.5c76741f.chunk.css.map": "/bite/static/css/main.5c76741f.chunk.css.map",
     "static/js/2.571e34fe.chunk.js.LICENSE.txt": "/bite/static/js/2.571e34fe.chunk.js.LICENSE.txt",
     "static/media/Frame2.a2eb7f0f.png": "/bite/static/media/Frame2.a2eb7f0f.png",
     "static/media/FrameFooter.a4169227.png": "/bite/static/media/FrameFooter.a4169227.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.94423061.js",
     "static/js/2.571e34fe.chunk.js",
-    "static/css/main.fa2e2c86.chunk.css",
-    "static/js/main.37522f30.chunk.js"
+    "static/css/main.5c76741f.chunk.css",
+    "static/js/main.053dc1fd.chunk.js"
   ]
 }
