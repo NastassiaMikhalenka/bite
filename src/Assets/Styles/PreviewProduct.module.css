@@ -1,0 +1,86 @@
+*{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.btnShop{
+        background: #4144BF;
+        border: 3px solid #4144BF;
+        box-sizing: border-box;
+        border-radius: 6.25063px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 31px;
+        cursor: pointer;
+        font-size: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        padding: 10px 15px;
+}
+.btnShop:hover{
+        background: #ffffff;
+        border: 3px solid #4144BF;
+        color: #172345;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.img img{
+    width: 100%;
+}
+
+
+.title{
+    font-size: 19px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #172345;
+}
+
+.description{
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #AAAAAA;
+    padding-bottom: 7px;
+}
+
+.price,
+span{
+    font-size: 19px;
+    line-height: 22px;
+    text-align: right;
+    color: #0038D2;
+}
+
+.btnAdd{
+    background: #4144BF;
+    border: 3px solid #4144BF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 30px;
+  }
+
+  .btnAdd:hover{
+    background: #ffffff;
+    border: 3px solid #4144BF;
+    color: #172345;
+}

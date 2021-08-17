@@ -1,0 +1,12 @@
+.logoWrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logoWrapper img {
+    padding: 20px 10px;
+}

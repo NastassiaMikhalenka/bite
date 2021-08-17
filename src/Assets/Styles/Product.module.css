@@ -1,0 +1,122 @@
+*{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .container{
+    padding: 30px 0;
+  
+  }
+  
+  .containerWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title{
+      font-size: 19px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #172345;
+  }
+  
+  .description{
+      font-size: 15px;
+      line-height: 16px;
+      text-transform: capitalize;
+      color: #AAAAAA;
+      padding-bottom: 7px;
+  }
+  
+  .rated{
+      font-size: 13px;
+      line-height: 24px;
+      color: #172345;
+  }
+  
+  .price,
+  span{
+      font-size: 19px;
+      line-height: 22px;
+      text-align: right;
+      color: #0038D2;
+  }
+  
+  .btnAdd{
+      float: right;
+  }
+  
+  .btnContainer button{
+      padding: 15px;
+      margin-top: 8px;
+  }
+  
+  /* .btnContainer button:active, 
+  .btnContainer button:focus {
+      outline: none;
+      cursor: pointer;
+    } */
+  
+    .btnAdd{
+      background: #4144BF;
+      border: 3px solid #4144BF;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  
+    .btnAdd:hover{
+      background: #ffffff;
+      border: 3px solid #4144BF;
+      color: #172345;
+  }
+  
+    .btnView{
+      background: #FFFFFF;
+      border: 3px solid #4144BF;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #172345;
+      cursor: pointer;
+    }
+  
+    .btnView:hover {
+      background: #4144BF;
+      color: white;
+    }
+  
+  
+  
+    @media (max-width: 320px){
+      .container img{
+          width: 300px;
+      }
+  }
+  
+  
+  @media (max-width: 375px){
+      .container img{
+          width: 330px;
+      }
+  }
+  
+  @media (max-width: 425px){
+      .container img{
+          width: 415px;
+      }
+  }
+  
+  @media (max-width: 768px){
+    .container img{
+        width: 300px;
+    }
+  }
+  

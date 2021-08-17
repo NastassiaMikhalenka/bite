@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 320px){
+    .container img{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 375px){
+    .container img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 425px){
+    .container img{
+        width: 415px;
+    }
+}
+
+@media (max-width: 768px){
+  .container img{
+      width: 300px;
+  }
+}

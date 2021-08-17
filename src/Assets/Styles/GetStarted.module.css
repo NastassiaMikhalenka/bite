@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.section{
+    width: 80%;
+    margin: auto;
+}
+
+.sectionName{
+    text-align: center;
+}
+
+.sectionNameVoid{
+    padding-top: 50px;
+}
+
+.sectionNameVoid h4{
+    font-size: 23px;
+    line-height: 33px;
+    letter-spacing: 1.31592px;
+
+    color: #172345;
+}
+
+.sectionNameVoid button{
+    background: #FFFFFF;
+    border: 3px solid #4144BF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 34px;
+    font-size: 19px;
+    line-height: 31px;
+    color: #4144BF;
+    cursor: pointer;
+}
+
+.sectionNameVoid button:hover{
+    background: #4144BF;
+    color: #ffffff;
+}
+
+.sectionName h3 {
+    width: 70%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 1.31592px;
+    color: #172345;
+}
+
+.sectionName p{
+    display: inline-block;
+    padding: 0 9px;
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2.08354px;
+    text-transform: uppercase;
+    color: #172345;
+}
+
+.sectionName p:not(:first-child):not(:last-child){
+    border-right: 1px solid #172345;
+}
+
+.sectionWrapper{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.sectionBtn{
+    width: 10%;
+}
+
+.sectionBtn h4{
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 1.31592px;
+    color: #172345;
+}
+
+.sectionItem{
+    position: relative;
+}
+
+.sectionItem img{
+    opacity: .5;
+ 
+}
+
+.sectionItem img:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+.sectionItem h4{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.sectionItem p{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.btn{
+    background: #4144BF;
+    border: 3px solid #4144BF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 34px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 20px;
+    align-items: center;
+}
+
+.btnWrapper{
+    text-align: center;
+}
+
+
+/* @media (max-width: 1024px){
+    .sectionItem img{
+        width: 200px;
+    }
+} */

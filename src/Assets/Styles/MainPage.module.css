@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    -ms-user-select: none; 
+		-moz-user-select: none; 
+		-webkit-user-select: none; 
+		user-select: none; 
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 20px;
+    scroll-behavior: smooth;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+
+.home .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .content h3{
+    font-size: 62px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 4.38641px;
+    color: #FFFFFF;
+}
+
+.home .content p{
+    font-size: 29px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 3px solid #4144BF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 34px;
+    font-size: 18px;
+    line-height: 31px;
+    color: #4144BF;
+}
+
+@media (max-width: 768px){
+    .home .content h3{
+        font-size: 50px;
+
+    }
+    
+    .home .content p{
+        font-size: 25px;
+    }
+    
+    
+    .btn{
+        padding: 11px 31px;
+
+    }
+}
+
+@media (max-width: 425px){
+    .home .content h3{
+        font-size: 47px;
+
+    }
+    
+    .home .content p{
+        font-size: 22px;
+    }
+    
+    
+    .btn{
+        padding: 9px 28px;
+
+    }
+}
+
+
+@media (max-width: 375px){
+    .home .content h3{
+        font-size: 43px;
+
+    }
+    
+    .home .content p{
+        font-size: 18px;
+    }
+    
+    
+    .btn{
+        padding: 5px 24px;
+
+    }
+}
+
+@media (max-width: 320px){
+    .home .content h3{
+        font-size: 40px;
+
+    }
+    
+    .home .content p{
+        font-size: 15px;
+    }
+    
+    
+    .btn{
+        padding: 4px 21px;
+
+    }
+}

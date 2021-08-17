@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    height: 70px;
+}
+
+.containerWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerWrapper a:not(:last-child){
+    margin-right: 30px;
+}
+
+
+.containerWrapper h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5326D4;
+    text-align: center;
+}
+
+@media (max-width: 320px){
+    .containerWrapper h2{
+        font-size: 14px;
+    }
+}
