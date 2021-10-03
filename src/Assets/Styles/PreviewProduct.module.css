@@ -84,3 +84,13 @@ span{
     border: 3px solid #4144BF;
     color: #172345;
 }
+
+
+@media (max-width: 1000px){
+    .container{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+}
