@@ -1,55 +1,55 @@
-*{
+* {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
 }
 
-.btnShop{
-        background: #4144BF;
-        border: 3px solid #4144BF;
-        box-sizing: border-box;
-        border-radius: 6.25063px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-bottom: 31px;
-        cursor: pointer;
-        font-size: 10px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        cursor: pointer;
-        padding: 10px 15px;
-}
-.btnShop:hover{
-        background: #ffffff;
-        border: 3px solid #4144BF;
-        color: #172345;
+.btnShop {
+    background: #4144BF;
+    border: 3px solid #4144BF;
+    box-sizing: border-box;
+    border-radius: 6.25063px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px 15px;
 }
 
-.container{
+.btnShop:hover {
+    background: #ffffff;
+    border: 3px solid #4144BF;
+    color: #172345;
+}
+
+.container {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: center;*/
 }
-.block{
+
+.block {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
 }
 
-.img img{
-    width: 100%;
+.img img {
+    width: 50%;
 }
 
 
-.title{
+.title {
     font-size: 19px;
     line-height: 22px;
     text-transform: capitalize;
     color: #172345;
 }
 
-.description{
+.description {
     font-size: 15px;
     line-height: 16px;
     text-transform: capitalize;
@@ -58,14 +58,14 @@
 }
 
 .price,
-span{
+span {
     font-size: 19px;
     line-height: 22px;
     text-align: right;
     color: #0038D2;
 }
 
-.btnAdd{
+.btnAdd {
     background: #4144BF;
     border: 3px solid #4144BF;
     box-sizing: border-box;
@@ -77,20 +77,22 @@ span{
     cursor: pointer;
     padding: 10px 15px;
     margin-top: 30px;
-  }
+}
 
-  .btnAdd:hover{
+.btnAdd:hover {
     background: #ffffff;
     border: 3px solid #4144BF;
     color: #172345;
 }
 
 
-@media (max-width: 1000px){
-    .container{
+@media (max-width: 1000px) {
+    .container {
         margin: auto;
         display: flex;
         flex-direction: column;
-        width: 60%;
+        justify-content: center;
+        align-items: center;
+        /*width: 60%;*/
     }
 }

@@ -10,7 +10,7 @@ const PreviewProduct = ({ currentItem, addToCart }) => {
         <Link to='/shopping'><button className={classes.btnShop}>Back to shop</button></Link>
         <div className={classes.container}>
             <div>
-                <img className={classes.img} src={currentItem.image} alt={currentItem.title}/>
+                <img className={classes.img} src={currentItem.image} alt={currentItem.title} width={'250px'}/>
             </div>
             <div className={classes.block}>
                 <p className={classes.title}>{currentItem.title}</p>
